@@ -15,6 +15,7 @@ public class DemoApplication {
 
     @RequestMapping()
     public String tests() {
-        return "Hello World 欢迎进入新世界";
+        return "Hello World 欢迎进入新世界,这是第二次提交";
+
     }
 }
